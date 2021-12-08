@@ -1,5 +1,19 @@
 import itertools
-from useful import is_prime
+
+def is_prime(n):
+    if n<3:
+        if n==2:
+            return True
+        else:
+            return False
+    elif n%2==0:
+        return False
+    d = 3
+    while d*d <= n:
+        if n % d == 0:
+            return False
+        d += 2
+    return True
 
 n = [9,8,7,6,5,4,3,2,1]
 
