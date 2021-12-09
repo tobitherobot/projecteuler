@@ -12,6 +12,5 @@ sum = 0
 for i in range(2, 10001):
     a = sum_of_divisors(i)
     if i<a and sum_of_divisors(a)==i:
-        print(str(i) + " " + str(a))
         sum += i + a
 print(sum)

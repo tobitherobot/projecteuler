@@ -4,5 +4,4 @@ for i in range(2, 101):
 sum = 0
 for c in str(fac):
     sum += int(c)
-    print(int(c))
 print(sum)
