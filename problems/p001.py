@@ -2,13 +2,13 @@
 
 import sys
 
-x0 = int(input().strip())
-for x1 in range(x0):
-    inp = int(input().strip())
+t = int(input().strip())
+for a0 in range(t):
+    n = int(input().strip())
 
-    n = (inp-1) // 15
-    sum = n*60 + (((n-1)* n)// 2) * 105
-    for i in range(n*15+1, inp):
+    m = (n-1) // 15
+    sum = m*60 + (((m-1)* m)// 2) * 105
+    for i in range(m*15+1, n):
         if i%3==0 or i%5==0:
             sum += i
     print(sum)
