@@ -1,7 +1,16 @@
-sum = 0
+#!/bin/python3
+
+import sys
+
+sm = 0
 sqr = 0
-for i in range(1, 101):
-    sum += int(pow(i, 2))
+diff = []
+for i in range(1, 10001):
+    sm += int(pow(i, 2))
     sqr += i
-sqr = int(pow(sqr, 2))
-print(sqr-sum)
+    diff.append(sqr*sqr - sm)
+
+t = int(input().strip())
+for a0 in range(t):
+    n = int(input().strip())
+    print(diff[n-1])

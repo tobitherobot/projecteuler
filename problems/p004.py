@@ -23,6 +23,5 @@ for a0 in range(t):
 101101 <= n <= 906609
 
 -> only 279 different in possible range
-EDIT: FIND PROPER SOLUTION YOU LAZY FUCK
 
 '''
