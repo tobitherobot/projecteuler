@@ -8,7 +8,7 @@ My [projecteuler.net](https://projecteuler.net) solutions in Python
 
 |  |  |  |  |  |  |  |  |  |  |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| P001<br>:heavy_check_mark: | P002<br>:heavy_check_mark: | P003<br>:heavy_check_mark: | P004<br>:heavy_check_mark: | P005<br>:heavy_check_mark: | P006<br>:heavy_check_mark: | P007<br>:heavy_check_mark: | P008<br>:cloud: | P009<br>:cloud: | P010<br>:cloud: | 
+| P001<br>:heavy_check_mark: | P002<br>:heavy_check_mark: | P003<br>:heavy_check_mark: | P004<br>:heavy_check_mark: | P005<br>:heavy_check_mark: | P006<br>:heavy_check_mark: | P007<br>:heavy_check_mark: | P008<br>:heavy_check_mark: | P009<br>:cloud: | P010<br>:cloud: | 
 | P011<br>:cloud: | P012<br>:cloud: | P013<br>:cloud: | P014<br>:cloud: | P015<br>:x: | P016<br>:cloud: | P017<br>:cloud: | P018<br>:cloud: | P019<br>:cloud: | P020<br>:cloud: | 
 | P021<br>:cloud: | P022<br>:cloud: | P023<br>:x: | P024<br>:cloud: | P025<br>:cloud: | P026<br>:cloud: | P027<br>:cloud: | P028<br>:cloud: | P029<br>:cloud: | P030<br>:cloud: | 
 | P031<br>:cloud: | P032<br>:x: | P033<br>:cloud: | P034<br>:cloud: | P035<br>:cloud: | P036<br>:cloud: | P037<br>:x: | P038<br>:x: | P039<br>:x: | P040<br>:cloud: | 
