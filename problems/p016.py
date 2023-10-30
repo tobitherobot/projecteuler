@@ -1,5 +1,3 @@
 s = str(pow(2, 1000))
-sum = 0
-for c in s:
-    sum += int(c)
-print(sum)
+l = [(ord(x) - ord('0')) for x in s]
+print(sum(l))

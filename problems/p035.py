@@ -1,20 +1,5 @@
-import math
-
-def is_prime(x):
-    n = int(x)
-    if n<3:
-        if n==2:
-            return True
-        else:
-            return False
-    elif n%2==0:
-        return False
-    d = 3
-    while d*d <= n:
-        if n % d == 0:
-            return False
-        d += 2
-    return True
+from useful import is_prime
+from math import log10
 
 res = 1
 n = 3
@@ -30,7 +15,7 @@ while n<1000000:
         count = 1
         flag = True
         while True:
-            x = pow(10, int(math.log10(n))) * (x%10) + x//10
+            x = pow(10, int(log10(n))) * (x%10) + x//10
             if x==n:
                 break
             elif not is_prime(x) or x<n:

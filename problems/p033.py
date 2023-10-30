@@ -1,4 +1,4 @@
-import math
+from math import gcd
 
 f = [1, 1]
 for n in range(12, 100):
@@ -19,9 +19,9 @@ for n in range(12, 100):
             else:
                 continue
             
-            g1 = math.gcd(n, d)
-            g2 = math.gcd(a, b)
+            g1 = gcd(n, d)
+            g2 = gcd(a, b)
             if n/g1==a/g2 and d/g1==b/g2:
                 f[0] *= a
                 f[1] *= b
-print(f[1] // math.gcd(f[0], f[1]))
+print(f[1] // gcd(f[0], f[1]))

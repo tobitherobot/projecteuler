@@ -1,8 +1,8 @@
-import math
+from math import sqrt
 
 def count(n):
     c = 2
-    root = int(math.sqrt(n))
+    root = int(sqrt(n))
     for i in range(2, root):
         if n%i==0:
             c += 2
